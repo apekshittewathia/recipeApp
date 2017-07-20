@@ -38,9 +38,6 @@ RecipeSchema=new SimpleSchema({
 			return this.userId;
 		},
 		autoform:{type:"hidden"}
-
-
-
 	},
 	createdAt:{
 type:Date,
@@ -49,8 +46,6 @@ autoValue:function(){
 	return new Date();
 },
 autoform:{type:"hidden"}
-
-
 }
 });
 

@@ -13,5 +13,4 @@ Template.Recipe.helpers({
 	updateRecipeId:function(){
 		return this._id;
 	}
-
 });
